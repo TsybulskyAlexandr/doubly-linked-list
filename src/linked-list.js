@@ -1,7 +1,12 @@
+"use strict";
 const Node = require('./node');
 
 class LinkedList {
-    constructor() {}
+    constructor() {
+        this.lenght = 0;
+        this.head = null;
+        this.tail = null;
+    }
 
     append(data) {}
 
